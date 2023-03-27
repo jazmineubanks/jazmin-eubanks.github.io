@@ -1,0 +1,56 @@
+<style>
+
+
+  .name {
+    color: #b8c1ec;
+    font-family:'Roboto Slab', serif;
+    align-items: center;
+    text-decoration: bold;
+    
+    
+    }
+    body {
+      background-color:#232946;
+      min-height: 100%;
+      height: fit-content;
+      padding: 20px;
+      box-sizing: border-box;
+      margin: 0;
+      font-family:'Roboto Slab', serif;
+      align-items: center;
+     
+    
+    }
+
+  .banner-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 128px;
+    justify-content: center;
+    display: flex;
+   
+  }
+
+  .thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+  }
+  
+  .link {
+    background-color:#b8c1ec;
+    padding: 5px;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow-elevation-low);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+
+
+
+</style>
