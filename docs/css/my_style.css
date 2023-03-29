@@ -1,5 +1,14 @@
 <style>
 
+body {
+  background-color:#232946;
+  min-height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 30;
+  font-family:'Roboto Slab', serif;
+  align-items: center;
+ }
 
   .name {
     color: #b8c1ec;
@@ -7,20 +16,8 @@
     align-items: center;
     text-decoration: bold;
     
-    
     }
-    body {
-      background-color:#232946;
-      min-height: 100%;
-      height: fit-content;
-      padding: 20px;
-      box-sizing: border-box;
-      margin: 0;
-      font-family:'Roboto Slab', serif;
-      align-items: center;
-     
-    
-    }
+
 
   .banner-image {
     width: 200px;
@@ -45,7 +42,6 @@
     border-radius: 500px;
     display: flex;
     align-items: center;
-    box-shadow: var(--shadow-elevation-low);
   margin-top: 20px;
   margin-bottom: 20px;
   }
