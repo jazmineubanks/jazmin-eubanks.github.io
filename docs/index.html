@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   </head>
+
   <body> 
     
     <div class="banner">
@@ -20,17 +21,17 @@
 
     <div class="link">
       <img src="/linkedin.png" class="thumbnail">
-      <a href="https://www.linkedin.com/in/jazmin-eubanks/" target="_blank">Linkedin</a>
+      <a class="link-text" target="_blank" href="https://www.linkedin.com/in/jazmin-eubanks/" >LinkedIn</a>
     </div>
 
     <div class="link">
       <img src="/lotus.jpeg" class="thumbnail">
-      <a href="/about_me.html" target="_blank">About me</a>
+      <a class="link-text" target="_blank" href="/about_me.html" >About Me</a>
     </div>
 
     <div class="link">
       <img src="/github.png" class="thumbnail">
-      <a href="https://github.com/jazmineubanks" target="_blank">GitHub</a>
+      <a class="link-text" target="_blank" href="https://github.com/jazmineubanks" >GitHub</a>
     </div>
 
     <div class="link">
@@ -40,18 +41,19 @@
 
     <div class="link">
       <img src="/dev.png" class="thumbnail">
-      <a href="https://www.amazon.com/hz/wishlist/ls/2LLN43ACK1700?ref_=wl_share" target="_blank">My Learning Blog</a>
+      <a class="link-text" target="_blank" href="https://www.amazon.com/hz/wishlist/ls/2LLN43ACK1700?ref_=wl_share" >My Learning Blog</a>
     </div>
 
     <div class="link">
       <img src="/books2.png" class="thumbnail">
-      <a href="https://www.amazon.com/hz/wishlist/ls/2LLN43ACK1700?ref_=wl_share" target="_blank">Book Recommendations</a>
+      <a class="link-text" target="_blank" href="https://www.amazon.com/hz/wishlist/ls/2LLN43ACK1700?ref_=wl_share" >Book Recommendations</a>
     </div> 
   
   </body>
 </html>
 
 <style>
+
 body {
   background-color: #232946;
   min-height: 100%;
@@ -69,6 +71,8 @@ body {
   color: #b8c1ec;
   text-align: center;
   margin-top: 20px;
+  font-size: xx-large;
+  text-decoration: bold;
 }
 
 .banner-image {
@@ -91,7 +95,7 @@ body {
   height: 48px;
   border-radius: 48px;
   object-fit: cover;
-  margin-top: 20px;
+ 
 }
 
 .thumbnail img {
@@ -109,13 +113,25 @@ body {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  width: 300px;
+  width: 500px;
+  box-shadow: var(--shadow-elevation-low);
+  transition: 0.3s;
+  
 }
 
 .link a {
   color: #232946;
   font-weight: bold;
   text-decoration: none;
-  text-align-center
 }
+.link-text {
+text-align: center;
+
+
+
+
+
+}
+
+
 </style>
