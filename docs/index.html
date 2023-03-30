@@ -1,66 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
-
     <title>JazEubanks</title>
-
-    <link rel="stylesheet" href="css/my_style.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   </head>
-
   <body> 
-  
+    
     <div class="banner">
-      <img src="css/profilepic2.png" class= "banner-image">
+      <img src="css/profilepic2.png" class="banner-image">
     </div>
-    
-    <div class="name"> 
-     Jazmin M. Eubanks 
 
+    <div class="name"> 
+      Jazmin M. Eubanks 
     </div>
-    
+
     <div class="link">
       <img src="/linkedin.png" class="thumbnail">
-      <a href="https://www.linkedin.com/in/jazmin-eubanks/" target="_blank">
-        Linkedin
-      </a>
+      <a href="https://www.linkedin.com/in/jazmin-eubanks/" target="_blank">Linkedin</a>
     </div>
+
     <div class="link">
       <img src="/lotus.jpeg" class="thumbnail">
-      <a href="/about_me.html" target="_blank">
-       About me
-      </a>
+      <a href="/about_me.html" target="_blank">About me</a>
     </div>
-    
+
     <div class="link">
       <img src="/github.png" class="thumbnail">
-      <a href="https://github.com/jazmineubanks" target="_blank">
-        GitHub
-      </a>
+      <a href="https://github.com/jazmineubanks" target="_blank">GitHub</a>
     </div>
-    
+
     <div class="link">
       <img src="/gmail.png" class="thumbnail">
-      <a href="mailto: jazmin.eubanks@gmail.com " target="_blank">
-        Email Me
+      <a href="mailto: jazmin.eubanks@gmail.com " target="_blank">Email Me</a>
     </div>
+
     <div class="link">
       <img src="/dev.png" class="thumbnail">
-      <a href="https://www.amazon.com/hz/wishlist/ls/2LLN43ACK1700?ref_=wl_share" target="_blank">
-        My Learning Blog
+      <a href="https://www.amazon.com/hz/wishlist/ls/2LLN43ACK1700?ref_=wl_share" target="_blank">My Learning Blog</a>
     </div>
+
     <div class="link">
       <img src="/books2.png" class="thumbnail">
-      <a href="https://www.amazon.com/hz/wishlist/ls/2LLN43ACK1700?ref_=wl_share" target="_blank">
-        Book Reccomendations
+      <a href="https://www.amazon.com/hz/wishlist/ls/2LLN43ACK1700?ref_=wl_share" target="_blank">Book Recommendations</a>
     </div> 
-  
   
   </body>
 </html>
+
+<style>
+body {
+  background-color: #232946;
+  min-height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: #b8c1ec;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 128px;
+  margin-top: 20px;
+}
+
+.banner-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 128px;
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 48px;
+ 
+}
+
+.link {
+  background-color: #b8c1ec;
+  padding: 10px 20px;
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.link a {
+  color: #232946;
+  font-weight: bold;
+  text-decoration: none;
+  text-align-center
+}
+</style>

@@ -1,52 +1,63 @@
-<style>
-
 body {
-  background-color:#232946;
+  background-color: #232946;
   min-height: 100%;
   padding: 20px;
   box-sizing: border-box;
-  margin: 30;
-  font-family:'Roboto Slab', serif;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
- }
+}
 
-  .name {
-    color: #b8c1ec;
-    font-family:'Roboto Slab', serif;
-    align-items: center;
-    text-decoration: bold;
-    
-    }
-
-
-  .banner-image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 128px;
-    justify-content: center;
-    display: flex;
-   
-  }
-
-  .thumbnail {
-    width: 48px;
-    height: 48px;
-    border-radius: 48px;
-    object-fit: cover;
-  }
-  
-  .link {
-    background-color:#b8c1ec;
-    padding: 5px;
-    border-radius: 500px;
-    display: flex;
-    align-items: center;
+.name {
+  color: #b8c1ec;
+  text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-  }
+}
 
+.banner-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 128px;
+  margin-top: 20px;
+}
 
+.banner-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 128px;
+}
 
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+  margin-top: 20px;
+}
 
-</style>
+.thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 48px;
+}
+
+.link {
+  background-color: #b8c1ec;
+  padding: 10px 20px;
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.link a {
+  color: #232946;
+  font-weight: bold;
+  text-decoration: none;
+}
